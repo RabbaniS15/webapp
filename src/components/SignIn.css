@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100vh;
+}
+.banner {
+  padding: 50px 100px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signIn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h2 {
+  font-size: 1.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+  .banner {
+    padding: 50px;
+  }
+  form {
+    padding: 50px;
+  }
+}
