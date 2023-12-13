@@ -28,11 +28,12 @@ const SignIn = () => {
   return (
     <div className="container">
       <div className="banner">
-        <h2>welcome to the sign in page</h2>
+        <h2>welcome to the sign in page of Elementure</h2>
+        <h3>lets start</h3>
       </div>
       <form autoComplete="off">
         <div className="signIn">
-          <h2>Sign In with Email</h2>
+          <h2>Sign In with gmail</h2>
           <span className="p-float-label">
             <InputText
               id="email"
